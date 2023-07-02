@@ -3,6 +3,7 @@
     "rootNamespace": "",
     "references": [
         "Crossoverse.Core.Unity.Domain",
+        "UniTask",
         "UniGLTF",
         "VRM10",
         "VRMShaders.GLTF.IO.Runtime",
