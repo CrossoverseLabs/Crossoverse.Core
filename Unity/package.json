@@ -1,0 +1,8 @@
+{
+    "name": "dev.crossoverse.core.unity",
+    "displayName": "Crossoverse.Core.Unity",
+    "version": "0.1.0",
+    "unity": "2021.3",
+    "license": "MIT",
+    "author": { "name": "Crossoverse Labs" }
+}
