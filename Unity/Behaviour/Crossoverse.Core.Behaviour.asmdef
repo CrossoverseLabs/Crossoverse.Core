@@ -1,0 +1,16 @@
+{
+    "name": "Crossoverse.Core.Behaviour",
+    "rootNamespace": "",
+    "references": [
+        "Crossoverse.Core.Unity.Domain"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
