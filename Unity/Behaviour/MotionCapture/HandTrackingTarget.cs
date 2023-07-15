@@ -11,8 +11,8 @@ namespace Crossoverse.Core.Behaviour.MotionCapture.HandTracking
         public bool Initialized => _initialized;
         private bool _initialized = false;
 
-        private Transform[] _handBones = new Transform[FingerBone.FingerBoneCount];
-        private Quaternion[] _initialRotations = new Quaternion[FingerBone.FingerBoneCount];
+        private Transform[] _handBones = new Transform[(int)FingerBone.FingerBoneCount];
+        private Quaternion[] _initialRotations = new Quaternion[(int)FingerBone.FingerBoneCount];
 
         public void Initialize()
         {
