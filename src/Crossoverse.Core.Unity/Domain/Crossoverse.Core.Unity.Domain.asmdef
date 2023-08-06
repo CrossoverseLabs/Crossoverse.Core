@@ -1,0 +1,14 @@
+{
+    "name": "Crossoverse.Core.Unity.Domain",
+    "rootNamespace": "Crossoverse.Core.Unity.Domain",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

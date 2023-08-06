@@ -1,9 +1,15 @@
 {
-    "name": "Crossoverse.Core.Behaviour",
-    "rootNamespace": "",
+    "name": "Crossoverse.Core.Unity.Infrastructure",
+    "rootNamespace": "Crossoverse.Core.Unity.Infrastructure",
     "references": [
         "Crossoverse.Core.Unity.Domain",
-        "Crossoverse.Core.Unity.Infrastructure"
+        "UniTask",
+        "UniGLTF",
+        "VRM10",
+        "VRMShaders.GLTF.IO.Runtime",
+        "VRMShaders.GLTF.UniUnlit.Runtime",
+        "VRMShaders.VRM.IO.Runtime",
+        "VRMShaders.VRM10.MToon10.Runtime"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
