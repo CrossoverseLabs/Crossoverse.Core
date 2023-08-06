@@ -1,0 +1,7 @@
+{
+    "name": "dev.crossoverse.core",
+    "displayName": "Crossoverse.Core",
+    "version": "0.2.0",
+    "license": "MIT",
+    "author": { "name": "Crossoverse Labs" }
+}
