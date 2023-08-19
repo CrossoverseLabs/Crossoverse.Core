@@ -1,11 +1,11 @@
 using System;
-using Crossoverse.Core.Domain;
+using Crossoverse.Core.Domain.Multiplayer;
 using UnityEngine;
 #if UNITY_EDITOR
 using UnityEditor;
 #endif
 
-namespace Crossoverse.Core.Unity.Behaviour
+namespace Crossoverse.Core.Unity.Behaviour.Multiplayer
 {
     [DisallowMultipleComponent]
     public class GuidComponent : MonoBehaviour, IGuidComponent

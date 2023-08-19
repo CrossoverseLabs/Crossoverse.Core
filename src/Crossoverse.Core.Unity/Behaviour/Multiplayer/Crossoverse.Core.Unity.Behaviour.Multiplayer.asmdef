@@ -1,9 +1,8 @@
 {
-    "name": "Crossoverse.Core.Unity.Behaviour",
-    "rootNamespace": "Crossoverse.Core.Unity.Behaviour",
+    "name": "Crossoverse.Core.Unity.Behaviour.Multiplayer",
+    "rootNamespace": "",
     "references": [
-        "Crossoverse.Core.Domain",
-        "Crossoverse.Core.Unity.Domain"
+        "Crossoverse.Core.Domain.Multiplayer"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

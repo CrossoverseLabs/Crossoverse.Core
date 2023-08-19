@@ -1,4 +1,4 @@
-namespace Crossoverse.Core.Domain
+namespace Crossoverse.Core.Domain.Multiplayer
 {
     public interface IGuidComponent
     {
