@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEditor;
 #endif
 
-namespace Crossoverse.Core.Unity.Behaviour.Multiplayer
+namespace Crossoverse.Core.Unity.Multiplayer
 {
     [DisallowMultipleComponent]
     public class GuidComponent : MonoBehaviour, IGuidComponent

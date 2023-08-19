@@ -1,9 +1,8 @@
 using System;
 using System.IO.Hashing;
 using Crossoverse.Core.Domain.Multiplayer;
-using Crossoverse.Core.Unity.Behaviour.Multiplayer;
 
-namespace Crossoverse.Core.Unity.Infrastructure.Multiplayer
+namespace Crossoverse.Core.Unity.Multiplayer
 {
     public sealed class NetworkObjectFactory : INetworkObjectFactory
     {

@@ -2,7 +2,7 @@ using System;
 using Crossoverse.Core.Domain.Multiplayer;
 using UnityEngine;
 
-namespace Crossoverse.Core.Unity.Behaviour.Multiplayer
+namespace Crossoverse.Core.Unity.Multiplayer
 {
     public class NetworkObject : MonoBehaviour, INetworkObject
     {

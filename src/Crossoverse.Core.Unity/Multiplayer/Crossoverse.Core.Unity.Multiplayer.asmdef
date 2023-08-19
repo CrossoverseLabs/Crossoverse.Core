@@ -1,9 +1,8 @@
 {
-    "name": "Crossoverse.Core.Unity.Infrastructure.Multiplayer",
-    "rootNamespace": "Crossoverse.Core.Unity.Infrastructure.Multiplayer",
+    "name": "Crossoverse.Core.Unity.Multiplayer",
+    "rootNamespace": "Crossoverse.Core.Unity.Multiplayer",
     "references": [
-        "Crossoverse.Core.Domain.Multiplayer",
-        "Crossoverse.Core.Unity.Behaviour.Multiplayer"
+        "Crossoverse.Core.Domain.Multiplayer"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
