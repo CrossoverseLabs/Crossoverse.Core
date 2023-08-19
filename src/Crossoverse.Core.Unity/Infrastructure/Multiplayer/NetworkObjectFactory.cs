@@ -9,12 +9,14 @@ namespace Crossoverse.Core.Unity.Infrastructure.Multiplayer
     {
         public INetworkObject Create(IGuidComponent prefab)
         {
-            if (prefab is not GuidComponent gameObjectPrefab)
-            {
-                return null;
-            }
+            if (prefab is not GuidComponent gameObjectPrefab) return null;
+            return Create(gameObjectPrefab, NewInstanceId());
+        }
 
-            return null;
+        public INetworkObject Create(IGuidComponent prefab, int instanceId)
+        {
+            if (prefab is not GuidComponent gameObjectPrefab) return null;
+            return new NetworkObject(gameObjectPrefab.Guid, instanceId);
         }
 
         public int NewInstanceId()
