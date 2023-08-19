@@ -1,5 +1,4 @@
 using Crossoverse.Core.Domain.MotionCapture.HandTracking;
-using Crossoverse.Core.Infrastructure.MotionCapture;
 using UnityEngine;
 
 namespace Crossoverse.Core.Behaviour.MotionCapture.HandTracking
@@ -27,7 +26,7 @@ namespace Crossoverse.Core.Behaviour.MotionCapture.HandTracking
             {
                 for (int i = 0; i < _handBones.Length; i++)
                 {
-                    _handBones[i] = _animator.GetBoneTransform(MotionCaptureUtility.HandBones[i]);
+                    _handBones[i] = _animator.GetBoneTransform(HandBones[i]);
                     _initialRotations[i] = _handBones[i].localRotation;
                 }
 
@@ -55,5 +54,41 @@ namespace Crossoverse.Core.Behaviour.MotionCapture.HandTracking
                 }
             }
         }
+
+        public static readonly HumanBodyBones[] HandBones = new HumanBodyBones[]
+        {
+            // Left hand
+            HumanBodyBones.LeftThumbProximal,
+            HumanBodyBones.LeftThumbIntermediate,
+            HumanBodyBones.LeftThumbDistal,
+            HumanBodyBones.LeftIndexProximal,
+            HumanBodyBones.LeftIndexIntermediate,
+            HumanBodyBones.LeftIndexDistal,
+            HumanBodyBones.LeftMiddleProximal,
+            HumanBodyBones.LeftMiddleIntermediate,
+            HumanBodyBones.LeftMiddleDistal,
+            HumanBodyBones.LeftRingProximal,
+            HumanBodyBones.LeftRingIntermediate,
+            HumanBodyBones.LeftRingDistal,
+            HumanBodyBones.LeftLittleProximal,
+            HumanBodyBones.LeftLittleIntermediate,
+            HumanBodyBones.LeftLittleDistal,
+            // Right hand
+            HumanBodyBones.RightThumbProximal,
+            HumanBodyBones.RightThumbIntermediate,
+            HumanBodyBones.RightThumbDistal,
+            HumanBodyBones.RightIndexProximal,
+            HumanBodyBones.RightIndexIntermediate,
+            HumanBodyBones.RightIndexDistal,
+            HumanBodyBones.RightMiddleProximal,
+            HumanBodyBones.RightMiddleIntermediate,
+            HumanBodyBones.RightMiddleDistal,
+            HumanBodyBones.RightRingProximal,
+            HumanBodyBones.RightRingIntermediate,
+            HumanBodyBones.RightRingDistal,
+            HumanBodyBones.RightLittleProximal,
+            HumanBodyBones.RightLittleIntermediate,
+            HumanBodyBones.RightLittleDistal
+        };
     }
 }
