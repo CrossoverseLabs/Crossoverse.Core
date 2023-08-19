@@ -38,9 +38,9 @@ namespace Crossoverse.Core.Unity.MotionCapture
 
         public void SetRotation(in EyeTrackingData eyeTrackingData)
         {
-            _head.rotation = _headInitialRotation * eyeTrackingData.HeadRotation;
-            _leftEye.localRotation = _leftEyeInitialLocalRotation * eyeTrackingData.LeftEyeLocalRotation;
-            _rightEye.localRotation = _rightEyeInitialLocalRotation * eyeTrackingData.RightEyeLocalRotation;
+            _head.rotation = _headInitialRotation * eyeTrackingData.HeadRotation.ToUnity();
+            _leftEye.localRotation = _leftEyeInitialLocalRotation * eyeTrackingData.LeftEyeLocalRotation.ToUnity();
+            _rightEye.localRotation = _rightEyeInitialLocalRotation * eyeTrackingData.RightEyeLocalRotation.ToUnity();
         }
     }
 }
