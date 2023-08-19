@@ -1,0 +1,14 @@
+{
+    "name": "Crossoverse.Core.Domain.ResourceProvider",
+    "rootNamespace": "Crossoverse.Core.Domain.ResourceProvider",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

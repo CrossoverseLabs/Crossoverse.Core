@@ -1,0 +1,23 @@
+{
+    "name": "Crossoverse.Core.Unity.Infrastructure.ResourceProvider",
+    "rootNamespace": "Crossoverse.Core.Unity.Infrastructure.ResourceProvider",
+    "references": [
+        "Crossoverse.Core.Domain.ResourceProvider",
+        "UniTask",
+        "UniGLTF",
+        "VRM10",
+        "VRMShaders.GLTF.IO.Runtime",
+        "VRMShaders.GLTF.UniUnlit.Runtime",
+        "VRMShaders.VRM.IO.Runtime",
+        "VRMShaders.VRM10.MToon10.Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
