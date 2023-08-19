@@ -3,7 +3,7 @@ using System.Linq;
 using UnityEngine;
 using Crossoverse.Core.Domain.MotionCapture.FaceTracking;
 
-namespace Crossoverse.Core.Behaviour.MotionCapture.FaceTracking
+namespace Crossoverse.Core.Unity.MotionCapture
 {
     public class FaceTrackingTarget : MonoBehaviour
     {

@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 using Crossoverse.Core.Domain.MotionCapture.EyeTracking;
 
-namespace Crossoverse.Core.Behaviour.MotionCapture.EyeTracking
+namespace Crossoverse.Core.Unity.MotionCapture
 {
     public class EyeTrackingTarget : MonoBehaviour
     {

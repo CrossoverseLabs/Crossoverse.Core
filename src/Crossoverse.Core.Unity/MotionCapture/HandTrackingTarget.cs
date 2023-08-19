@@ -1,7 +1,7 @@
 using Crossoverse.Core.Domain.MotionCapture.HandTracking;
 using UnityEngine;
 
-namespace Crossoverse.Core.Behaviour.MotionCapture.HandTracking
+namespace Crossoverse.Core.Behaviour.MotionCapture
 {
     public class HandTrackingTarget : MonoBehaviour
     {

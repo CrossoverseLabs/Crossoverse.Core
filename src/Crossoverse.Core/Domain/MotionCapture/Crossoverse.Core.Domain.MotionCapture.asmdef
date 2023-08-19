@@ -1,6 +1,6 @@
 {
-    "name": "Crossoverse.Core.Unity.Domain",
-    "rootNamespace": "Crossoverse.Core.Unity.Domain",
+    "name": "Crossoverse.Core.Domain.MotionCapture",
+    "rootNamespace": "Crossoverse.Core.Domain.MotionCapture",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
