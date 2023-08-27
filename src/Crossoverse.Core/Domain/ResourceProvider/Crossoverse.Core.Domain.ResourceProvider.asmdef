@@ -1,7 +1,9 @@
 {
     "name": "Crossoverse.Core.Domain.ResourceProvider",
     "rootNamespace": "Crossoverse.Core.Domain.ResourceProvider",
-    "references": [],
+    "references": [
+        "UniTask"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
